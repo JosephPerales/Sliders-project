@@ -1,0 +1,55 @@
+.slider-1-container {
+    padding-top: 50px;
+    /* display: grid;
+    grid-auto-flow: column; */
+    grid-template-columns: 100vw;
+    /* overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity; */
+}
+
+.slider-1-container .slider {
+    color: white;
+    height: 448px;
+    width: 100vw;
+    position: relative;
+    /* cursor: pointer;
+    scroll-snap-align: center; */
+} 
+
+.slider-1-container .slider .img-container {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    z-index: -1;
+    background-image: url("https://okdiario.com/img/2018/02/16/descubren-que-adromeda-y-via-lactea-son-del-mismo-tamano-3.jpg");
+}
+
+.slider-1-container .slider h3 {
+    font-size: 40px;
+    padding-left: 20px;
+    padding-top: 100px ;
+    font-weight: bolder;
+}
+.slider-1-container .slider p {
+    font-size: 28px;
+    padding-left: 20px;
+    padding-top: 15px;
+    width: 90vw;
+}
+.slider-1-container .slider button {
+    display: block;
+    width: 80vw;
+    margin: 0 auto;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    height: 48px;
+    border-radius: 30px;
+    background-color: rgb(84, 232, 84);
+    border: none;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 70px;
+}
